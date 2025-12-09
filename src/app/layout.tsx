@@ -8,6 +8,11 @@ import NotificationInitializer from "@/components/NotificationInitializer"; // E
 export const metadata: Metadata = {
   title: "zncustom CRM",
   description: "zncustom CRM - Passie voor auto's",
+  icons: {
+    icon: "/favicon.ico",          // of "/favicon.png" als je png gebruikt
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
