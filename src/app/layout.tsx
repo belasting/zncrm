@@ -5,13 +5,12 @@ import BottomNav from "@/components/nav/BottomNav";
 import NotificationInitializer from "@/components/NotificationInitializer"; // Ensure this file exists
 // If the file does not exist, create it or correct the path.
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "zncustom CRM",
-  description: "zncustom CRM - Passie voor auto's",
   icons: {
-    icon: "/favicon.ico",          // of "/favicon.png" als je png gebruikt
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    apple: "/apple-touch-icon.png"
   },
 };
 
