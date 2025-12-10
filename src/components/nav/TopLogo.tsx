@@ -12,7 +12,7 @@ export default function TopLogo() {
           <Link href="/" className="flex items-center gap-2">
             <Image
               src="/logo-zncustom.png" // komt uit /public
-              alt="zncustom CRM"
+              alt="znzwart.png"
               width={120}
               height={32}
               className="h-8 w-auto"
